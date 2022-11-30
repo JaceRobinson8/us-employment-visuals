@@ -13,7 +13,7 @@ def main():
                   active_drag="pan", active_scroll="wheel_zoom")
 
     plot.line(x, y1, legend_label="Temp.", color="aqua", line_width=2)
-    plot.line(x, y2, legend_label="Rate", color="coral", line_width=2)
+    plot.vbar(x=x, top=y2, legend_label="Rate", width=0.5, bottom=0, color="coral")
     plot.circle(x, y3, legend_label="Objects", color="black", line_width=2)
 
     show(plot)
