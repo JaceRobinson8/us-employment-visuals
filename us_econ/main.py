@@ -1,6 +1,7 @@
+#!/usr/bin/env python
 from bokeh.plotting import figure, show
 
-#TODO: @jr
+#TODO: @jrdev
 #TODO: @apick
 # [ ] bokeh tutorial
 # [ ] using dataset
@@ -11,7 +12,6 @@ from bokeh.plotting import figure, show
 #   - [ ] different way
 
 def main():
-
     print("hello world")
 
 if __name__ == "__main__":
