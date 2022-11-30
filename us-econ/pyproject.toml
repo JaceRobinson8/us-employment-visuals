@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "us-econ"
+version = "0.1.0"
+description = ""
+authors = ["jacerobinson21@gmail.com <12394543+JaceRobinson8@users.noreply.github.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bokeh = "^3.0.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
